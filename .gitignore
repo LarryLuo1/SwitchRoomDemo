@@ -1,0 +1,386 @@
+Last login: Mon Jul 17 10:36:33 on ttys002
+l/usr/local/lib/node_modules/npm/lib/es6/validate-engines.js:8
+const { engines: { node: engines }, version } = require('../../package.json')
+      ^
+
+SyntaxError: Unexpected token {
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/usr/local/lib/node_modules/npm/lib/cli.js:1:87)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+nvm is not compatible with the npm config "prefix" option: currently set to ""
+Run `npm config delete prefix` or `nvm use --delete-prefix v4.9.1 --silent` to unset it.
+^R
+zego@larrydeMacBook-Pro:~|⇒
+zego@larrydeMacBook-Pro:~|⇒  cd Desktop/Project/GitHub
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  ls
+GoMovie                                live_android-main
+MiniGameDemo                           live_audio_room_android
+MiniGameDemo copy                      live_audio_room_flutter
+MiniGameDemo.zip                       live_audio_room_ios
+Switch-Live-Streaming                  live_ios
+TestCallKit                            mini_game_android
+ZEGOCallIntegratedDemo                 roomkit_flutter
+ZegoToken                              test_call_kit
+call_android                           zego-ionic-demo
+call_flutter                           zego-ionic-video-call
+call_ios                               zego_call_duration_examples
+customer_demo                          zego_karaoke_examples
+easy_example_android                   zego_superboard_web_flutter_wrapper_ts
+easy_example_flutter                   zego_uikit_flutter
+easy_example_ios                       zego_whiteboard_example_flutter
+flutter_game_demo                      zegocloud-mini-game-server
+ionicTest                              zegocloud_content_guides
+live_android                           zegocloud_mini_game_demo
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  git clone git@github.com:LarryLuo1/SwitchRoomDemo.git
+Cloning into 'SwitchRoomDemo'...
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 198.18.0.79 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  git clone git@github.com:LarryLuo1/SwitchRoomDemo.git
+Cloning into 'SwitchRoomDemo'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:uNiVztksCsDhcc0u9e8BujQXVUpKZIDTMczCvj3tD2s.
+Please contact your system administrator.
+Add correct host key in /Users/zego/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /Users/zego/.ssh/known_hosts:2
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+Agent forwarding is disabled to avoid man-in-the-middle attacks.
+UpdateHostkeys is disabled because the host key is not trusted.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  cd Switch
+cd: no such file or directory: Switch
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  cd SwitchRoomDemo
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo|main
+⇒  ls
+README.md
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo|main
+⇒  open .
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo|main
+⇒  ls
+Audience      Host          README.md     testVideo.mp4
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo|main⚡
+⇒  cd Host
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  ls
+README.md       ZegoEasyExample media
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  ls -a
+.               .DS_Store       .gitignore      ZegoEasyExample
+..              .git            README.md       media
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm ./.git
+rm: ./.git: is a directory
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm -r ./.git
+override r--r--r-- zego/staff for ./.git/objects/0d/9d9310984eef66d173fb1b5f3aaf5c4ac938d2?
+rm: ./.git/objects/0d: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/95/3ee36f3bb709faf58a351e0b33c353e337c0a2?
+rm: ./.git/objects/95: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/92/a389208118d92860cfa52bcc08440eaeb00f9b?
+override r--r--r-- zego/staff for ./.git/objects/92/08d5b705675ee97c99d77d8e759bad86093942?
+override r--r--r-- zego/staff for ./.git/objects/92/21b9bb1a35f5de270a41afa01305478221ae32?
+rm: ./.git/objects/92: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/0c/f3727d9b69d9f93e9b357ffd36d668733c1f76?
+override r--r--r-- zego/staff for ./.git/objects/0c/56db5d34ce16b982ac58471612b72203cd7e02?
+override r--r--r-- zego/staff for ./.git/objects/0c/7a86c69f516e4a31a4f194b30af25a77d2c232?
+override r--r--r-- zego/staff for ./.git/objects/0c/67376ebacb410fd873cac1d8d8dd431b262c02?
+rm: ./.git/objects/0c: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/66/f8f9cfb8d11fc0113cab7b4e7bdff003c7ddfd?
+override r--r--r-- zego/staff for ./.git/objects/66/be6cd3a82feb5a68d3241269d6db24bfd70326?
+rm: ./.git/objects/66: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/50/c6d43887f37e748fed1ed8e7147ede40eaf5f4?
+rm: ./.git/objects/50: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/68/9fb6d04b2fdfcf6752525f353ebd64ddc7856b?
+override r--r--r-- zego/staff for ./.git/objects/68/cbab0c8da9833e84376e95952ba12d256ede30?
+override r--r--r-- zego/staff for ./.git/objects/68/e0629020f0420f71a78fac3d333ca629c40dd2?
+override r--r--r-- zego/staff for ./.git/objects/68/988628f5833e2cc2ae1b73a5b83bac02cd4ffe?
+rm: ./.git/objects/68: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/57/36f3186e797b8b787748c9979d0fed3b0536c3?
+rm: ./.git/objects/57: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/6f/b8134035c48719c4264eac467221686d072f96?
+rm: ./.git/objects/6f: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/9e/bd0b34eb8c830e4639deb563445cef6086e550?
+override r--r--r-- zego/staff for ./.git/objects/9e/b4f562278f21224c16925b3d2149862ad4cc83?
+rm: ./.git/objects/9e: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/04/104b56346ae8179a8474ef222b905bbc3d15b9?
+override r--r--r-- zego/staff for ./.git/objects/04/f836389a6647b997e563ce7640a4d0d84c5ef8?
+override r--r--r-- zego/staff for ./.git/objects/04/51c227b9a5291d94058a5edcc4dfc062777f03?
+rm: ./.git/objects/04: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/32/6f771df43c8887daeba8604058ae40646a36bb?
+rm: ./.git/objects/32: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/35/0c7ab7054ebe8601acbfbc001225d0abaaa4bd?
+override r--r--r-- zego/staff for ./.git/objects/35/a94c91f357983f1bc67e89ea6eb0324221190b?
+rm: ./.git/objects/35: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/3c/1280673104942ef7906b60ab81f130e88ac2fb?
+override r--r--r-- zego/staff for ./.git/objects/3c/fcbc11553c3bbd85edc9382935618b08b77621?
+override r--r--r-- zego/staff for ./.git/objects/3c/2858704f1ca4cd230cd8e0fe4bbdf5c605b984?
+rm: ./.git/objects/3c: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/56/824527f45534de192325d20791c4fa4a7e19ce?
+override r--r--r-- zego/staff for ./.git/objects/56/10ac1af89a66b117f1c9e603aca86d64bc5a15?
+override r--r--r-- zego/staff for ./.git/objects/56/05f4d7de6a33229d2c202f8bcce8732755d581?
+rm: ./.git/objects/56: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/51/97502fcca063e3d33b5f2b665294b0fe1252ed?
+override r--r--r-- zego/staff for ./.git/objects/51/21ca2489cebd85997e7c047390c6cc2f0c6872?
+rm: ./.git/objects/51: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/3d/5c1fbcf814064396b977555a5fc8314500ab34?
+override r--r--r-- zego/staff for ./.git/objects/3d/d9a655bc25da9c67125485dadfa2d2671a426b?
+rm: ./.git/objects/3d: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/67/2c68d397a975602b6cc57dcf4d4511e93b0411?
+rm: ./.git/objects/67: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/0b/b22acb32918a311974f3e2df8ec2eef28f5de3?
+override r--r--r-- zego/staff for ./.git/objects/0b/9d441114c3e57247d0054bab48288703eba139?
+override r--r--r-- zego/staff for ./.git/objects/0b/8ab89ae77b2db0026436e0d956915faa9bc6ef?
+override r--r--r-- zego/staff for ./.git/objects/0b/56bdc0beb16318806b9869395b6773cfa8d397?
+rm: ./.git/objects/0b: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/94/3a8b2f7cfcf05139eb3cfaec8e1f0e2b669646?
+override r--r--r-- zego/staff for ./.git/objects/94/f509759503d974293774fc93d4abda1a6ef618?
+rm: ./.git/objects/94: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/0e/de4b937c0c4f458f58c351a83f52ecb409a9e7?
+override r--r--r-- zego/staff for ./.git/objects/0e/88e2f877198317653ee49e1dcd9fb9d22db4c5?
+override r--r--r-- zego/staff for ./.git/objects/0e/c2481d838cad42c3da62ddbb0456866cbc4c17?
+rm: ./.git/objects/0e: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/34/aea395385476e9e131ee39403776949e5ca64b?
+rm: ./.git/objects/34: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/5f/5524e4c751208ed372cfbe552a36a577bc7d26?
+override r--r--r-- zego/staff for ./.git/objects/5f/26979c1592c915852b0afcfe892676c3c9c1f8?
+rm: ./.git/objects/5f: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/05/5a569ea6b82d4fd54424843cac3f40215343fe?
+rm: ./.git/objects/05: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/9d/75e4aa2dac602d589578ed73dbc2b2d0d99a6c?
+override r--r--r-- zego/staff for ./.git/objects/9d/02e371702d9cad2ba63da9b573f239f93dcb03?
+rm: ./.git/objects/9d: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/9c/67688882307cb65bfd8a662b123403510790e0?
+rm: ./.git/objects/9c: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/02/98479cda42df097d5c651b91c258128f714767?
+override r--r--r-- zego/staff for ./.git/objects/02/c7503a97fa68639f874d5d66d9c538d66ed608?
+rm: ./.git/objects/02: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/a3/bedabed542f6a63ae1f94acffcc576165bbd6d?
+rm: ./.git/objects/a3: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/b5/7b8f32b0515a7fa640fd17e4eef0f7cc535308?
+rm: ./.git/objects/b5: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/b2/ff85b4c975713bd59f9957d20af6b47edf0d98?
+override r--r--r-- zego/staff for ./.git/objects/b2/b146721ab8f3a7297ee40a9ce127ca8cea2ee3?
+override r--r--r-- zego/staff for ./.git/objects/b2/b2b5aa1bcbbb836f01cd9b8d8c6ba4d4388515?
+rm: ./.git/objects/b2: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/ac/16a9a00ca233d5bf947f8818cf9723e8bbfb00?
+rm: ./.git/objects/ac: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/ad/a2ac8db39c30c30b22ec79f54f1e20d1e6f0f2?
+rm: ./.git/objects/ad: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/bb/df90398e2f0221e397b4529f92edd18f9bd594?
+override r--r--r-- zego/staff for ./.git/objects/bb/c2bd9f1859ddc23c5002237723d05953ecd52e?
+rm: ./.git/objects/bb: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/d7/4842a6f5eca1c91c4159d008aa9b34512d04ed?
+rm: ./.git/objects/d7: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/d0/9333a5633ae6146d58cec8fbb21ab68ffb8792?
+override r--r--r-- zego/staff for ./.git/objects/d0/d1d6a64bfc28510ca0e1244b608f3049b075ac?
+rm: ./.git/objects/d0: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/be/b2a2441835aeaf9ee2ba30c557a8f2b6e4363f?
+override r--r--r-- zego/staff for ./.git/objects/be/4b1c9e1c3a3c6623a8e6ae1551fdb2bef7ea51?
+rm: ./.git/objects/be: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/b3/33cabe269b2e5aaeeb97043369b65188f8a85f?
+rm: ./.git/objects/b3: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/df/d521070dbf77731c0576a89851170e4d934d57?
+override r--r--r-- zego/staff for ./.git/objects/df/b772b72d0c63f2dbc0702f0cc0e9d252592d4d?
+rm: ./.git/objects/df: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/da/c8b620e3ab213298b677fe6564f54e86be4c53?
+override r--r--r-- zego/staff for ./.git/objects/da/5e3cd4cce2e8a491fd19a5462f6a9935a98cd8?
+override r--r--r-- zego/staff for ./.git/objects/da/314280e6498a61aaeebb44fea8c905b55ec8dc?
+override r--r--r-- zego/staff for ./.git/objects/da/74c83a56e050e4a66d280fc192d7a6758f5cf5?
+override r--r--r-- zego/staff for ./.git/objects/da/fd0767e7defe71ae7e8fe62fd2b6fb810d5865?
+rm: ./.git/objects/da: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/b4/2b8aa188ad88c03ee32e29b1f74a89fd716b69?
+override r--r--r-- zego/staff for ./.git/objects/b4/8a593817925b6b63019eb947fd3e6a83975d0e?
+rm: ./.git/objects/b4: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/a2/99428e56d3c9a75b751fd1aa9f5d9c8d26db42?
+override r--r--r-- zego/staff for ./.git/objects/a2/0d81a9f0cd77a325e1ba1daebe4c73194f7ace?
+override r--r--r-- zego/staff for ./.git/objects/a2/33df41e7ac34575dd0a1f53e6663960fc498a3?
+rm: ./.git/objects/a2: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/a5/f1f605164345790a7aaffd7669d0cf7c90104b?
+override r--r--r-- zego/staff for ./.git/objects/a5/de81bdf6e7eebb09d56b47d2d1dfcd991b3528?
+override r--r--r-- zego/staff for ./.git/objects/a5/848be4f6f7ede30916f90ee6157b3611536dc8?
+rm: ./.git/objects/a5: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/bd/b83a4528a95a451f91aa6ef90acdf28b1764b0?
+rm: ./.git/objects/bd: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/d1/ec02b2936463f7f102f5cd468d06a739baaa23?
+override r--r--r-- zego/staff for ./.git/objects/d1/f43624ce1046d40db370341fb2cd6ccf80c309?
+rm: ./.git/objects/d1: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/d6/18a16ca349f67b9d88e7f2056e966f1c25198a?
+override r--r--r-- zego/staff for ./.git/objects/d6/49769a6f1c49436baa475aa8684f2d58774319?
+override r--r--r-- zego/staff for ./.git/objects/d6/4e912d05c25b92292e87c8f6cefa17b3106e46?
+override r--r--r-- zego/staff for ./.git/objects/d6/84b463455b514c1cac375397b5bfe63078f7a4?
+rm: ./.git/objects/d6: Permission denied
+override r--r--r-- zego/staff for ./.git/objects/ab/0b8412c754f3eaa82ef8948155ea80d2ca4e34?
+override r--r--r-- zego/staff for ./.git/objects/ab/83fd4c7dbe6db684cccbb002991861c3f102d6? ^Z
+[1]  + 28441 suspended  rm -r ./.git
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm -r -f ./.git
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  ls -a
+.               .DS_Store       README.md       media
+..              .gitignore      ZegoEasyExample
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm -r -f .gitignore
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm  -r -f .
+rm: "." and ".." may not be removed
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm  -r -f ./.
+rm: "." and ".." may not be removed
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  rm  -r -f .DS_Store
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  la -a
+total 16
+drwxr-xr-x@  5 zego  staff   160B Jul 20 20:40 .
+drwxr-xr-x   8 zego  staff   256B Jul 20 20:35 ..
+-rw-r--r--@  1 zego  staff   4.7K Apr 20  2022 README.md
+drwxr-xr-x@ 11 zego  staff   352B Apr  8  2022 ZegoEasyExample
+drwxr-xr-x   4 zego  staff   128B Apr 12  2022 media
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  git reset HEAD~1
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo/Host|main⚡
+⇒  cd ..
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo|main⚡
+⇒  ls
+Audience      Host          README.md     testVideo.mp4
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/SwitchRoomDemo|main⚡
+⇒  cd ..
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  ls
+GoMovie                                live_android-main
+MiniGameDemo                           live_audio_room_android
+MiniGameDemo copy                      live_audio_room_flutter
+MiniGameDemo.zip                       live_audio_room_ios
+Switch-Live-Streaming                  live_ios
+SwitchRoomDemo                         mini_game_android
+TestCallKit                            roomkit_flutter
+ZEGOCallIntegratedDemo                 test_call_kit
+ZegoToken                              zego-ionic-demo
+call_android                           zego-ionic-video-call
+call_flutter                           zego_call_duration_examples
+call_ios                               zego_karaoke_examples
+customer_demo                          zego_superboard_web_flutter_wrapper_ts
+easy_example_android                   zego_uikit_flutter
+easy_example_flutter                   zego_whiteboard_example_flutter
+easy_example_ios                       zegocloud-mini-game-server
+flutter_game_demo                      zegocloud_content_guides
+ionicTest                              zegocloud_mini_game_demo
+live_android
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub|
+⇒  cd easy_example_ios
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios|main⚡
+⇒  ls
+README.md       ZegoEasyExample media
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios|main⚡
+⇒  cd ZegoEasyExample
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios/ZegoEasyExample|main⚡
+⇒  ls
+Podfile                     ZegoEasyExample.xcodeproj
+Podfile.lock                ZegoEasyExample.xcworkspace
+Pods                        ZegoEasyExampleTests
+ZegoEasyExample             ZegoEasyExampleUITests
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios/ZegoEasyExample|main⚡
+⇒  cd ..
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios|main⚡
+⇒  ls
+README.md       ZegoEasyExample media
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios|main⚡
+⇒  ls -a
+.               .DS_Store       .gitignore      ZegoEasyExample
+..              .git            README.md       media
+zego@larrydeMacBook-Pro:~/Desktop/Project/GitHub/easy_example_ios|main⚡
+⇒  cat .gitignore
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+Host/ZegoEasyExample/Pods
